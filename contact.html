@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preload" as="image" href="images/logo.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt="Pattiez Logo" class="logo"> </a>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contact.html" class="on">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+            <aside class="social-icons">
+                <a class="fa-brands fa-instagram" href="https://www.instagram.com/pattiez.bh/" target="_blank"></a>
+                <a class="fa-brands fa-tiktok" href="https://www.tiktok.com/@pattiez.bh" target="_blank"></a>
+            </aside>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="overlay"></div>
+        <aside class="sidebar">
+            <img src="images/logo.png" alt="Pattiez Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contact.html" class="on">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+            <aside class="social-icons">
+                <a class="fa-brands fa-instagram" href="https://www.instagram.com/pattiez.bh/" target="_blank"></a>
+                <a class="fa-brands fa-tiktok" href="https://www.tiktok.com/@pattiez.bh" target="_blank"></a>
+            </aside>
+        </aside>
+    </header>
+
+    <!-- Contact Us Section -->
+    <main class="contact-us">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or feedback, feel free to reach out to us using the form below.</p>
+
+        <!-- Contact Form -->
+        <form  class="contact-form">
+            <label>Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label>Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label>Your Message</label>
+            <textarea id="message" placeholder="Enter your message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Location and Timing Section -->
+        <section class="location-timing">
+            <h2>Visit Us</h2>
+            <ul class="info">
+                <li class="location">
+                    <h3>Our Location</h3>
+                    <p>Pattiez Burgers</p>
+                    <p>Al Doha Ave, Isa Town, Bahrain</p>
+                    <p>Shop 681, Building 5608</p>
+                </li>
+                <li class="timing">
+                    <h3>Working Hours</h3>
+                    <p>Monday to Friday: 4 PM - 1 AM</p>
+                    <p>Saturday, Sunday: 12 PM - 4 AM</p>
+                </li>
+                <li class="details">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:+97336656590"> +973 36 65 65 90</a></p>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:info@pattiezbh.com"> Info@pattiezbh.com</a></p>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <span>Contact Us</span>
+
+        <div class="contact-details">
+            <a href="tel:+97336656590"><i class="fa-solid fa-phone"></i>+973 36 65 65 90</a>
+            <br>
+            <a href="mailto:info@pattiezbh.com"><i class="fa-solid fa-envelope"></i>info@pattiezbh.com</a>
+        </div>
+
+        <span>Socials</span>
+
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/people/pattiezbh/61553751340291/?sk=about" target="_blank" aria-label="Facebook"> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://www.instagram.com/pattiez.bh/" target="_blank" aria-label="Instagram"> <i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.tiktok.com/@pattiez.bh" target="_blank" aria-label="Tiktok"> <i class="fa-brands fa-tiktok"></i> </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
